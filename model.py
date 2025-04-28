@@ -12,8 +12,3 @@ def predict_sentiment(text):
 
 # this is a super commentary for test my workflow
 # this is a super commentary for test my workflow
-# this is a super commentary for test my workflow
-# this is a super commentary for test my workflow
-# this is a super commentary for test my workflow
-# this is a super commentary for test my workflow
-# this is a super commentary for test my workflow
