@@ -19,7 +19,7 @@ jobs:
               run: |
                   pip install pydoc-markdown 
                   mkdir -p docs 
-                  pydoc-markdown -m model > docs/model.md
+                  PYTHONPATH=$PYTHONPATH:$(pwd) pydoc-markdown -m model > docs/model.md
             - name: Upload documentation
               uses: actions/upload-artifact@v4
               with:
