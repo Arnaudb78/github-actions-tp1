@@ -16,4 +16,7 @@
         + positive
         ?       ^^
     ```
-14.​ **Question : Que constates-tu après le push ?** 
+14.​ **Question : Que constates-tu après le push ?**
+    Reponse : La pipeline est un peu plus longue étant donné que le workflows execute les tests sur les différentes versions que nous lui avons transmis **3.8/3.9/3.10**.
+
+

@@ -1,3 +1,5 @@
+# this is a simple sentiment analysis model that uses keyword matching to
+# predict the sentiment of a given text.
 def predict_sentiment(text):
     if not text:
         return "neutral"
