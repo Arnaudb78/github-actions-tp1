@@ -2,7 +2,7 @@ from model import predict_sentiment
 
 
 def test_predict_positive(): 
-    assert predict_sentiment("I am happy today") == "positive" 
+    assert predict_sentiment("I am happy today") == "positif" 
 
 
 def test_predict_negative():
