@@ -44,3 +44,5 @@ Reponse : J'ai une erreur à l'execution du workflow : "Error: Resource not acce
 Reponse : Il contient un fichier markdown le nom de mon model mais je pense que mes commentaires ne sont pas bons. J'ai donc modifié mon model et re-genéré un **model 2.md**. On y retrouve le nom du fichier, de la function et un commentaire sur cette function. 
 
 40. **Question : ​Ajoute une nouvelle dépendance à requirements.txt et pousse-la. Exécute ce workflow deux fois.​ Que constates-tu au niveau du temps d'exécution ?**
+Reponse : Certains workflow ce sont executer en 15 secondes mais l'ensemble des workflows à été executer en 25 secondes pour le plus long. c'est beaucoup plus rapide. 
+
