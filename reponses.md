@@ -37,3 +37,5 @@ Reponse : Les résultats change et par moment le workflow echoue avec ce message
 33. **Question : ​Va dans l'onglet Actions sur GitHub et déclenche manuellement ce workflow. Que constates-tu ?**
 Reponse : Le workflow se déclenche correctement je ne constate rien de particulier. 
 
+36.​ **Question : Vérifie dans l'onglet "Releases" de ton repository. Que constates-tu ?**
+Reponse : J'ai une erreur à l'execution du workflow : "Error: Resource not accessible by integration"
