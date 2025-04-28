@@ -29,4 +29,7 @@ Reponse : Je constate que j'ai bien un nouveau workflow **Build Status Badge**. 
 Reponse : sauf erreur de ma part je ne vois pas le nouveau workflow apparaitre dans l'onglet actions. 
 
 27.**Question : ​Commit et pousse ces modifications. Vérifie l'onglet Actions et télécharge l'artifact généré.​ Que contient-il ?**
+Reponse : Il contient les metrics (accuracy,precision,recall,f1_score) de la function **evaluate_model** du fichier **metrics.py**
+
+30.​ **Question : Pousse plusieurs fois les modifications et observe les résultats. Que constates-tu ?**
 Reponse : 
