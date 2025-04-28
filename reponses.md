@@ -39,3 +39,5 @@ Reponse : Le workflow se déclenche correctement je ne constate rien de particul
 
 36.​ **Question : Vérifie dans l'onglet "Releases" de ton repository. Que constates-tu ?**
 Reponse : J'ai une erreur à l'execution du workflow : "Error: Resource not accessible by integration"
+
+38. **Question : ​Ajoute plus de commentaires à ton fichier model.py et pousse-le. Vérifie l'artifact de documentation.​ Que contient-il ?**

@@ -1,6 +1,9 @@
-# this is a simple sentiment analysis model that uses keyword matching to
-# predict the sentiment of a given text.
+"""Model module for sentiment predictione r."""
+
+
 def predict_sentiment(text):
+    """Predict the sentiment of a given text as positive,
+    negative, or neutral."""
     if not text:
         return "neutral"
 
@@ -8,6 +11,6 @@ def predict_sentiment(text):
         return "positive"
     if "sad" in text.lower() or "bad" in text.lower():
         return "negative"
+
     return "neutral"
 
-# this is a super commentary for test my workflow
