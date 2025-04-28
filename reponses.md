@@ -19,4 +19,8 @@
 14.​ **Question : Que constates-tu après le push ?**
     Reponse : La pipeline est un peu plus longue étant donné que le workflows execute les tests sur les différentes versions que nous lui avons transmis **3.8/3.9/3.10**.
 
+18. **Question : ​Crée une nouvelle branche, fais-y des modifications, puis crée une Pull Request.​ Que se passe-t-il avec ton workflow de commentaires ?**
+Reponse : Je constate que sur ma pull request je vois l'execution de mes différents workflows et apres quelques minutes un message est apparu sur ma pull request du **BOT GithubAction** avec le message "👋 Thanks for the PR! The automated tests will run shortly."
 
+21.​ **Question : Que constates-tu après avoir poussé ces modifications ?**
+Reponse : 
