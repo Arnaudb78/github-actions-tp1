@@ -46,3 +46,8 @@ Reponse : Il contient un fichier markdown le nom de mon model mais je pense que 
 40. **Question : ​Ajoute une nouvelle dépendance à requirements.txt et pousse-la. Exécute ce workflow deux fois.​ Que constates-tu au niveau du temps d'exécution ?**
 Reponse : Certains workflow ce sont executer en 15 secondes mais l'ensemble des workflows à été executer en 25 secondes pour le plus long. c'est beaucoup plus rapide. 
 
+42. **Question : ​Pousse ce workflow et observe la visualisation dans l'onglet Actions. Que constates-tu sur l'ordre d'exécution des jobs ?**
+Reponse : Je constate que l'ordre d'execution est le suivant **Hello World** puis **Build Status Badge**, **Lint Code**, **Run Tests** et enfin **Parallel and Sequential Jobs**.
+
+44. **Question : ​Pousse ce workflow et explore la visualisation complète du pipeline MLOps. Que penses-tu de cette structure pour un projet ML réel ?**
+Reponse : 
