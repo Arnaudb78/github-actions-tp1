@@ -41,3 +41,6 @@ Reponse : Le workflow se déclenche correctement je ne constate rien de particul
 Reponse : J'ai une erreur à l'execution du workflow : "Error: Resource not accessible by integration"
 
 38. **Question : ​Ajoute plus de commentaires à ton fichier model.py et pousse-le. Vérifie l'artifact de documentation.​ Que contient-il ?**
+Reponse : Il contient un fichier markdown le nom de mon model mais je pense que mes commentaires ne sont pas bons. J'ai donc modifié mon model et re-genéré un **model 2.md**. On y retrouve le nom du fichier, de la function et un commentaire sur cette function. 
+
+40. **Question : ​Ajoute une nouvelle dépendance à requirements.txt et pousse-la. Exécute ce workflow deux fois.​ Que constates-tu au niveau du temps d'exécution ?**
