@@ -29,7 +29,11 @@ Reponse : Je constate que j'ai bien un nouveau workflow **Build Status Badge**. 
 Reponse : sauf erreur de ma part je ne vois pas le nouveau workflow apparaitre dans l'onglet actions. 
 
 27.**Question : ​Commit et pousse ces modifications. Vérifie l'onglet Actions et télécharge l'artifact généré.​ Que contient-il ?**
-Reponse : Il contient les metrics (accuracy,precision,recall,f1_score) de la function **evaluate_model** du fichier **metrics.py**
+Reponse : Il contient les metrics (**accuracy,precision,recall,f1_score**) de la function **evaluate_model** du fichier **metrics.py**
 
 30.​ **Question : Pousse plusieurs fois les modifications et observe les résultats. Que constates-tu ?**
-Reponse : 
+Reponse : Les résultats change et par moment le workflow echoue avec ce message en erreur : "❌ Model accuracy below threshold (0.9)"
+
+33. **Question : ​Va dans l'onglet Actions sur GitHub et déclenche manuellement ce workflow. Que constates-tu ?**
+Reponse : Le workflow se déclenche correctement je ne constate rien de particulier. 
+
