@@ -7,5 +7,12 @@
 10.​  **Question : Commit et pousse ce nouveau workflow. Vérifie l'exécution dans l'onglet Actions.​ Que constates-tu ?​**
     Reponse : Je constate que le second workflow **Run Tests** est bien présent et que les deux workflows sont en status **queued**. Après quelques secondes d'attendes, les deux workflows ont correctement été appliqué sur mon projet. 
 
-11.​ **Question : Modifie le fichier model.py pour introduire un bug (change le retour de "positive" à  "positif" par exemple).         Que se passe-t-il lors du prochain push ?​**
-
+11.​ **Question : Modifie le fichier model.py pour introduire un bug (change le retour de "positive" à  "positif" par exemple).     Que se passe-t-il lors du prochain push ?​**
+    Reponse : Les deux workflows sont de nouveau en status **queued**. Après quelques seconde d'attente je constate que le second workflow **Run Tests** à échoué. Si je click sur le workflow, je constate que l'erreur est au niveau de la **step** nommé run. Si je regarde à l'intérieur de cette setp, je constate que l'erreur est du au changement de positif : 
+    
+    ```FAILED test_model.py::test_predict_positive - AssertionError: assert 'positive' == 'positif'
+        - positif
+        ?       ^
+        + positive
+        ?       ^^
+    ```
