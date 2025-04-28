@@ -14,3 +14,8 @@ def predict_sentiment(text):
 
     return "neutral"
 
+
+"""
+This function predicts the sentiment of a given text as positive,
+negative, or neutral.
+"""
