@@ -23,4 +23,10 @@
 Reponse : Je constate que sur ma pull request je vois l'execution de mes différents workflows et apres quelques minutes un message est apparu sur ma pull request du **BOT GithubAction** avec le message "👋 Thanks for the PR! The automated tests will run shortly."
 
 21.​ **Question : Que constates-tu après avoir poussé ces modifications ?**
-Reponse : Je constate que j'ai bien un nouveau workflow **Build Status Badge**. Après l'execution du workflow je constate que sur ma page d'accueil du projet, dans le README.md j'ai une image qui doit apparaitre mais la mienne est cassé.
+Reponse : Je constate que j'ai bien un nouveau workflow **Build Status Badge**. Après l'execution du workflow je constate que sur ma page d'accueil du projet, dans le README.md j'ai un logo github avec le status de passage de la pipeline.
+
+24. **Question : ​Commit et pousse ces modifications. Que constates-tu dans l'onglet Actions ?**
+Reponse : sauf erreur de ma part je ne vois pas le nouveau workflow apparaitre dans l'onglet actions. 
+
+27.**Question : ​Commit et pousse ces modifications. Vérifie l'onglet Actions et télécharge l'artifact généré.​ Que contient-il ?**
+Reponse : 
